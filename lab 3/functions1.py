@@ -19,7 +19,7 @@ centigrade(Fahrenheit_temperature)
 #ex3
 def solve(numheads, numlegs):
     rabbits = (2*numheads) - (numlegs/2)
-    chickens = 35 - rabbits
+    chickens = numheads - rabbits
     print ("Numbers of rabbits =", int(rabbits))
     print ("Numbers of chickens =", int(chickens))
 
